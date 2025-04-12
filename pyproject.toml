@@ -1,0 +1,26 @@
+[project]
+name = "brasileirao"
+version = "1.0"
+description = "Análise de dados do Campeonato Brasileiro"
+authors = [
+    {name = "Vinicius Princiotti",email = "vinicius.princiotti@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4"
+dependencies = [
+    "numpy (>=2.2.4,<3.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "basedosdados (>=2.0.2,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+

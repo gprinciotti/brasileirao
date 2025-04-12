@@ -1,0 +1,12 @@
+# Virtual environment and environment variables
+.venv/
+.env
+
+# Bytecode / caches
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
