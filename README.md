@@ -13,7 +13,7 @@ Este projeto realiza uma análise dos dados do Campeonato Brasileiro de Futebol,
 
 O objetivo principal deste projeto é analisar dados do Campeonato Brasileiro de Futebol no período entre 2015 e 2024. A análise busca especificamente observar se há árbitros que beneficiam certos times ao longo do campeonato. Além disso, examinamos a qualidade dos dados, identificando padrões de valores ausentes e realizando imputação de dados quando útil e/ou necessário.
 
-Os dados utilizados nesse projeto são disponibilizados pela [Transfermartk](https://www.transfermarkt.com.br/) e organizados pela [Base dos Dados](https://basedosdados.org/).
+Os dados utilizados nesse projeto são disponibilizados pela [Transfermarkt](https://www.transfermarkt.com.br/) e organizados pela [Base dos Dados](https://basedosdados.org/).
 
 Esta é uma versão inicial do projeto e novas análises serão incorporadas em breve.
 
