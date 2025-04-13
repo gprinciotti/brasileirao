@@ -1,19 +1,18 @@
 # Brasileirão
 
-Este projeto realiza uma análise dos dados do Campeonato Brasileiro de Futebol, explorando aspectos como a qualidade dos dados, padrões de dados ausentes e imputação de dados onde necessário.
+Este projeto realiza uma análise dos dados do Campeonato Brasileiro de Futebol, explorando aspectos como a qualidade dos dados e gerando insights sobre a atuação dos árbitros na principal divisão de futebol masculino do Brasil.
 
 ## Sumário
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Configuração do Ambiente](#configuração-do-ambiente)
-- [Como Usar](#como-usar)
 - [Autor](#autor)
 
 ## Sobre o Projeto
 
-O objetivo principal deste projeto é analisar dados do Campeonato Brasileiro de Futebol no período entre 2015 e 2024. A análise busca especificamente observar se há árbitros que beneficiam certos times ao longo do campeonato. Além disso, examinamos a qualidade dos dados, identificando padrões de valores ausentes e realizando imputação de dados quando útil e/ou necessário.
+O objetivo principal deste projeto é analisar dados do Campeonato Brasileiro de Futebol no período entre 2014 e 2024. A análise busca especificamente observar se há árbitros que beneficiam certos times ao longo do campeonato. Além disso, examinamos a qualidade dos dados, identificando padrões de valores ausentes e realizando imputação de dados quando útil e/ou necessário.
 
-Os dados utilizados nesse projeto são disponibilizados pela [Transfermarkt](https://www.transfermarkt.com.br/) e organizados pela [Base dos Dados](https://basedosdados.org/).
+Os dados utilizados nesse projeto são disponibilizados organizados pela [Transfermarkt](https://www.transfermarkt.com.br/) e organizados pela [Base dos Dados](https://basedosdados.org/) em seu datalake.
 
 Esta é uma versão inicial do projeto e novas análises serão incorporadas em breve.
 
@@ -32,16 +31,6 @@ poetry install
 # Para iniciar o ambiente virtual
 poetry env activate
 ```
-
-## Como Usar
-
-### Execução do Notebook:
-
-- Abra o Jupyter Notebook e execute o notebook `analise_brasileirao.ipynb` para realizar as análises e visualizações.
-
-### Configuração do Google Cloud:
-
-- Não é estritamente necessário configurar o Google Cloud Platform (GCP), pois o conjunto de dados já foi baixado e está disponível localmente como `../data/brasileirao_2015_2024.csv`.
 
 ## Autor
 
